@@ -83,6 +83,20 @@ void main() {
   実際に書いてみよう！
 ----------------------------------*/
 
+import 'dart:math';
+
 void main() {
-  // ここに書いてね
+  var number = 5;
+  print(number);
+  number = 1;
+  print(number);
+  const String animal = '猫';//
+  print(animal);
+  // animal = '犬';
+  // print(inu);
+  final neko;
+  neko = 1;
+print('猫は$neko匹います');
+// neko = 2;
+// print('やっぱり、猫は$neko匹います');
 }
