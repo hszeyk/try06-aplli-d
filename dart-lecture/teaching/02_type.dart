@@ -86,4 +86,14 @@ void main() {
 
 void main() {
   // ここに書いてみよう
+  print(1 + 1);
+  print('トラ' + 'イ');
+  print('トライ' + '3');
+  print((1 + 3) * 3 / 4);
+  print((1 - 11) / 10);
+  print(9 + 1.111);
+  print(3 + 4.333);
+  print('こんにちは');
+  print('こんばんは');
+  print(true);
 }
