@@ -57,4 +57,13 @@ void main() {
 
 void main() {
   // ここに書いてみよう
+  print('Hello world!');
+  print(1 + 2);
+  print(3 - 5);
+  print(10 * 1.5);
+  print(10 / 5);
+  print(34 / 3);
+  print(34 ~/ 3);
+  print(11 % 2);
+  print(10 % 2);
 }
