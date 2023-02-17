@@ -36,7 +36,7 @@ void main() {
 
   // 問題②のプログラムを書いてね
 
-  var box = '1';
+  dynamic box = 1;
   print(box);
 
   box = '猫';
