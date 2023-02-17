@@ -96,5 +96,15 @@ void main() {
 ----------------------------------*/
 
 void main() {
-  // ここに書いてね
+  var age = {"itiro":12,"jiro":22,"saburo":33};
+  print(age);
+  print(age["itiro"]);
+  print(age.keys.first);
+  age["total"]=age["itiro"]!+age["jiro"]!+age["saburo"]!;
+  print(age);
+  age["itiro"]=13;
+  print(age["itiro"]);
+  age["siro"]=18;
+  print(age);
 }
+

@@ -34,7 +34,7 @@ weather = '晴れ';
 print('明日の天気は$weatherです');
 
   // 問題②のプログラムを書いてね
-var box ='1';
+dynamic box =1;
 print(box);
 box = '猫';
 print(box);
