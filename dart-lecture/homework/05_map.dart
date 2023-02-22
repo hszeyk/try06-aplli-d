@@ -10,9 +10,7 @@
 ----------------------------------*/
 
 void main() {
-  var bloodType = {"miyu":'A',"mitsuki":'A',"mika":'a',"syunji":'O'};
-  print(bloodType.keys.first );
-  print('は');
-  print(bloodType['miyu']);
-  print('型です');
+  var bloodType = {'miyu':'A','mitsuki':'A','mika':'a','syunji':'O'};
+  var X = bloodType['miyu'];
+  print(bloodType.keys.first + 'は$X型です');
 }
