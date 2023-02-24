@@ -13,8 +13,6 @@ void main() {
   // プログラムを書いてね
 
   var bloodType = {"梓颯": "B"};
-  print(bloodType.keys.first);
-  print("は");
-  print(bloodType["梓颯"]);
-  print("型です");
+  var x = bloodType["梓颯"];
+  print(bloodType.keys.first + "は$x型です");
 }

@@ -22,7 +22,25 @@
 void main() {
   // 問題①のプログラムを書いてね
 
+  var i = 1;
+  while (i <= 10) {
+    print(i);
+    i++;
+  }
+
   // 問題②のプログラムを書いてね
+  var animal = ["犬", "猫", "鳥", "鹿", "猿"];
+  for (var item in animal) {
+    print(item);
+  }
 
   // 問題③のプログラムを書いてね
+
+  var j = 1;
+  while (j <= 10) {
+    if (j % 2 == 0){
+    print(j);
+  }
+    j++;
+  }
 }

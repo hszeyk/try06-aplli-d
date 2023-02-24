@@ -82,4 +82,17 @@ void main() {
 
 void main() {
   // ここに書いてね
+  var birth = [2, 3, 10];
+
+  if (birth[0] == 2) {
+    print("おめでとう");
+  } else {
+    print("こんにちは");
+  }
+
+  if (birth[1] == 2) {
+    print("おめでとう");
+  } else {
+    print("こんにちは");
+  }
 }
